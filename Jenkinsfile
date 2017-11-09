@@ -16,7 +16,7 @@ node {
                     doGenerateSubmoduleConfigurations: false,
                     extensions: [[$class: 'RelativeTargetDirectory', relativeTargetDir: "blah"]],
                     submoduleCfg: [],
-                    userRemoteConfigs: [[credentialsId: 'priority-ci-user-git-creds-id', url: "git@github.com:fatal-exception/temp_http}"]]
+                    userRemoteConfigs: [[credentialsId: 'priority-ci-user-git-creds-id', url: "git@github.com:fatal-exception/temp_http"]]
                 ]
             )
         }
