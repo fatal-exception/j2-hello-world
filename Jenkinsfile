@@ -21,6 +21,6 @@ node {
             )
         }
   sh 'ls'
-  sh 'ls blah'
+  sh 'ls -R blah'
   echo "hello world"
 }
